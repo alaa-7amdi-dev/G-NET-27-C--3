@@ -57,7 +57,20 @@
             //Console.WriteLine(x);
             //InvaildCastException:It's trying to convert OBJ of type int to type long; we need to  do unboxing first.
             #endregion
+            #region Q8
+            //try
+            //{
+            //    object o = 10;
+            //    long x = (long)o;
+            //    Console.WriteLine(x);
 
+            //}
+            //catch (InvalidCastException)
+            //{
+
+            //    Console.WriteLine(-1);
+            }
+            #endregion
         }
     }
 }
