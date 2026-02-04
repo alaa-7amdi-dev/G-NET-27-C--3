@@ -13,9 +13,16 @@
             #endregion
 
             #region Q2
-            int n = 5;
-            double d2 =(double) n / 2;
-            Console.WriteLine(d2);
+            //int n = 5;
+            //double d2 =(double) n / 2;
+            //Console.WriteLine(d2);
+            #endregion
+            #region Q3
+            //string? age = null;
+            //Console.WriteLine("Enter your age:");
+            //Console.ReadLine();
+            //int ageAfter = Convert.ToInt32(age);
+            //Console.WriteLine(ageAfter.GetType());
             #endregion
         }
     }
