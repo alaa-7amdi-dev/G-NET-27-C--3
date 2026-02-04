@@ -82,6 +82,23 @@
             //Console.WriteLine(length);
             //Null-coalescing operator Check if (name2?.Length) equal null,Returns the value on the left 0
             #endregion
+            #region Q11
+            //try
+            //{
+            //    string? s = Console.ReadLine();
+            //    int x = int.Parse(s ?? "0");
+            //    Console.WriteLine(x);
+            //}
+            //catch (FormatException)
+            //{
+            //    Console.WriteLine(0);
+            //}
+            #endregion
+            #region Q12
+            //string? s = null;
+            //Console.WriteLine(s?.Length);
+            // TROW EXCEPTION =>(Null-forgiving operator):telling the compiler that the value is not NULL, and it is NULL
+            #endregion
         }
     }
 }
