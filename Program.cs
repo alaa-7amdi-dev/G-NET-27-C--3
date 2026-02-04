@@ -30,6 +30,20 @@
             //Console.WriteLine(x);
             ////Convert String type into Int Type,and in case of conversion failure will throw exception
             #endregion
+            #region Q5
+            //try
+            //{
+            //    string s = "12a";
+            //    int x = int.Parse(s);
+            //    Console.WriteLine( x );
+            //}
+            //catch (FormatException)
+            //{
+
+            //    Console.WriteLine("Invalid Conversion");
+            //}
+            
+            #endregion
 
         }
     }
