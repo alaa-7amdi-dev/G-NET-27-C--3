@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            #region Q1
+            //double d = 9.99;
+            //int x = (int)d;
+            //Console.WriteLine(x);
+            ///// The result is 9: because EXPLICIT CAST was obtained from DOUBLE to INT
+            #endregion
         }
     }
 }
