@@ -69,7 +69,12 @@
             //{
 
             //    Console.WriteLine(-1);
-            }
+            //}
+            #endregion
+            #region Q9
+            //string? name = null;
+            //Console.WriteLine(name?.Length);
+            ////won't print anything=>Null-condtional operator handles the null value (NullReferenceException)  
             #endregion
         }
     }
