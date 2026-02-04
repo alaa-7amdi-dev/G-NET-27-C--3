@@ -42,7 +42,13 @@
 
             //    Console.WriteLine("Invalid Conversion");
             //}
-            
+
+            #endregion
+            #region Q6
+            //object o = 10;
+            //int a = (int)o;
+            //Console.WriteLine(a + 1);
+            ////Will print 11=> Unboxing cast :convert from Obj to int
             #endregion
 
         }
