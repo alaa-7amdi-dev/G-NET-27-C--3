@@ -76,6 +76,12 @@
             //Console.WriteLine(name?.Length);
             ////won't print anything=>Null-condtional operator handles the null value (NullReferenceException)  
             #endregion
+            #region Q10
+            //string? name2 = null;
+            //int length = name2?.Length ?? 0;
+            //Console.WriteLine(length);
+            //Null-coalescing operator Check if (name2?.Length) equal null,Returns the value on the left 0
+            #endregion
         }
     }
 }
