@@ -99,6 +99,12 @@
             //Console.WriteLine(s?.Length);
             // TROW EXCEPTION =>(Null-forgiving operator):telling the compiler that the value is not NULL, and it is NULL
             #endregion
+            #region Q13
+            //string? s = null;
+            //int x = Convert.ToInt32(s);
+            //Console.WriteLine(x);
+            //The conver() function converts from String to int, and if the value is null, it returns the default value (0).
+            #endregion
         }
     }
 }
