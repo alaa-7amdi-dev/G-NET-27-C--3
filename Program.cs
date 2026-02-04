@@ -50,6 +50,13 @@
             //Console.WriteLine(a + 1);
             ////Will print 11=> Unboxing cast :convert from Obj to int
             #endregion
+            #region Q7
+            //object o = 10;
+            //int a = (int)o;
+            //long x = (long)a;
+            //Console.WriteLine(x);
+            //InvaildCastException:It's trying to convert OBJ of type int to type long; we need to  do unboxing first.
+            #endregion
 
         }
     }
