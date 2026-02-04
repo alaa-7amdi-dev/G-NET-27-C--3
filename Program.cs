@@ -1,4 +1,6 @@
-﻿namespace ASSIGNMENT3
+﻿using System.Reflection.Metadata;
+
+namespace ASSIGNMENT3
 {
     internal class Program
     {
@@ -114,6 +116,10 @@
             //Console.WriteLine(b);
             //Parse=> return throw exception (ArgumentNullException)
             //convert=> return default value 0
+            #endregion
+            #region Q15
+            //string? user = null;
+            //Console.WriteLine(user==null? "Guest" : user.ToUpper());
             #endregion
         }
     }
