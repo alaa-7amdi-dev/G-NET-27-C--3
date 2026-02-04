@@ -105,6 +105,16 @@
             //Console.WriteLine(x);
             //The conver() function converts from String to int, and if the value is null, it returns the default value (0).
             #endregion
+            #region Q14
+            //string? s = null;
+            ////A
+            // int a = int.Parse(s);
+            ////B
+            //int b = Convert.ToInt32(s);
+            //Console.WriteLine(b);
+            //Parse=> return throw exception (ArgumentNullException)
+            //convert=> return default value 0
+            #endregion
         }
     }
 }
